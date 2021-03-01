@@ -1,0 +1,38 @@
+h2
+{
+  text-align: center;  
+}
+.thumbnail
+{
+    width: 100px;
+}
+
+.thumbnail:hover
+{
+    border-bottom: 2px solid teal;
+    margin-bottom: -2px;
+
+}
+#mainImage
+{
+    width: 400px;
+    /* max-width: 500px; */
+}
+#mainImage img
+{
+    width: 300px;
+    /* max-width: 500px; */
+}
+
+#tooltipContainer
+{
+    border-bottom:  3px solid teal;
+    background-color: lightblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 12px;
+    padding: 2px;
+    display:none;
+
+}
